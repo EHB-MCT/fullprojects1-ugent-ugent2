@@ -4,14 +4,14 @@ body {
 
 .wrapper {
     position: absolute;
-    width: 100%;
-    height: 100vh;
+}
+
+.home-background {
     background-image: url("images/logo_icoon.svg");
     background-repeat: no-repeat;
     background-position-x: -200px;
     background-position-y: 100px;
     background-size: 90%;
-
 }
 
 nav {
@@ -24,11 +24,20 @@ img {
 }
 
 main {
-    margin-top: 150px;
+    margin-top: 60px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 } 
+
+main h1 {
+    font-size: 55px;
+    margin-bottom: 45px;
+    font-weight: 800;
+    color: #1E64C8;
+    font-family: sans-serif;
+}
 
 .button-list {
     width: 70%;
@@ -70,3 +79,32 @@ a {
     padding-bottom: 20px;
 }
 
+
+
+/* Stijlgids */
+
+.styleguide {
+    padding: 60px;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-block {
+    margin-right: 100px;
+}
+
+.color {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+
+.divider {
+    height: 7px;
+    width: 100%;
+    background-color: black;
+    margin: 25px auto;
+}
