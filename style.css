@@ -153,6 +153,12 @@ a {
     height: 40px;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+}
+
+.button-example:hover {
+    background-color: black;
+    color: white;
 }
 
 .nav-block a {
