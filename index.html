@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/images/Favicon.png">
+    <title>UGent Logo Wedstrijd</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <!-- Hamburger + animation from W3Schools: https://www.w3schools.com/howto/howto_css_menu_icon.asp -->
+            <!-- <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                }
+            </script> -->
+            <div class="mobile-container">
+                <div class="topnav" id="nav-animation" style="height:0px">
+                    <div>
+                        <a href="index.html">Work</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("nav-animation");
+                    if (x.style.height === "0px") {
+                        x.style.height = "220px";
+                    } else {
+                        x.style.height = "0px";
+                    }
+                }
+            </script>
+        </nav>
+    </header>
 </body>
+
 </html>
