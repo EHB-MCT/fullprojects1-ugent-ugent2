@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-Liam.css">
+    <link rel="stylesheet" href="media.css">
     <title>UGent Logo Wedstrijd</title>
 </head>
 
@@ -24,27 +25,60 @@
             </div>
 
             <div class="nav-items" id="nav-animation">
-                <div>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </div>
+                <a href="#">Home</a>
+                <a href="#">Inschrijving</a>
+                <a href="#">Missie & Visie</a>
+                <a href="#">Contact</a>
             </div>
         </nav>
+
+        <script>
+            function hamburgerAnimation(a) {
+                a.classList.toggle("change");
+    
+                var x = document.getElementById("nav-animation");
+                    if (x.style.marginTop === "0px") {
+                        x.style.marginTop = "-300px";
+                    } else {
+                        x.style.marginTop = "0px";
+                    }
+            }
+        </script>
     </header>
-
-    <script>
-        function hamburgerAnimation(a) {
-            a.classList.toggle("change");
-
-            var x = document.getElementById("nav-animation");
-                if (x.style.marginTop === "0px") {
-                    x.style.marginTop = "-200px";
-                } else {
-                    x.style.marginTop = "0px";
-                }
-        }
-    </script>
+    <main>
+        <section>
+            <h1>Zijn jullie een klas vol creativiteit uit Vlaanderen?</h1>
+            <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer gaan, en
+                ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het officiële
+                evenement.
+            </p>
+            <a class="button">Inschrijven</a>
+        </section>
+        <section>
+            <h1>Deelname</h1>
+            <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer gaan, en
+                ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het officiële
+                evenement.
+            </p>
+            <a class="button">Inschrijven</a>
+        </section> 
+        <section>
+            <h1>Missie & Visie</h1>
+            <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer gaan, en
+                ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het officiële
+                evenement.
+            </p>
+            <a class="button">Inschrijven</a>
+        </section> 
+        <section>
+            <h1>Over Ons</h1>
+            <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer gaan, en
+                ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het officiële
+                evenement.
+            </p>
+            <a class="button">Inschrijven</a>
+        </section> 
+    </main>
 </body>
 
 </html>

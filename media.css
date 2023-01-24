@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .hamburger-background {
+        display: block;
+    }
+    
+    .nav-items {
+        width: 200px;
+        margin-left: auto;
+    }
+
+    #nav-animation {
+        margin-top: -300px;
+        transition: margin ease .6s;
+    }
+}
