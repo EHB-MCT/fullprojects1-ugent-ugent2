@@ -12,73 +12,99 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-        <!-- Hamburger animation from W3Schools: https://www.w3schools.com/howto/howto_css_menu_icon.asp -->
+    <div class="wrapper">
+        <header>
+            <nav>
+                <!-- Hamburger animation from W3Schools: https://www.w3schools.com/howto/howto_css_menu_icon.asp -->
 
-            <div class="hamburger-background">
-                <div class="hamburger" onclick="hamburgerAnimation(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+                <div class="hamburger-background">
+                    <div class="hamburger" onclick="hamburgerAnimation(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="nav-items" id="nav-animation">
-                <a href="#">Home</a>
-                <a href="#">Inschrijving</a>
-                <a href="#">Missie & Visie</a>
-                <a href="#">Contact</a>
-            </div>
-        </nav>
+                <div class="nav-items" id="nav-animation">
+                    <a href="#">Home</a>
+                    <a href="#">Inschrijving</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
 
-        <script>
-            function hamburgerAnimation(a) {
-                a.classList.toggle("change");
-    
-                var x = document.getElementById("nav-animation");
+            <script>
+                function hamburgerAnimation(a) {
+                    a.classList.toggle("change");
+
+                    var x = document.getElementById("nav-animation");
                     if (x.style.marginTop === "0px") {
                         x.style.marginTop = "-300px";
                     } else {
                         x.style.marginTop = "0px";
                     }
-            }
-        </script>
-    </header>
-    <main>
-        <section>
-            <h1>Zijn jullie een klas vol creativiteit uit Vlaanderen?</h1>
-            <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer gaan, en
-                ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het officiële
-                evenement.
-            </p>
-            <a class="button">Inschrijven</a>
-        </section>
-        <section>
-            <h1>Deelname</h1>
-            <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer gaan, en
-                ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het officiële
-                evenement.
-            </p>
-            <a class="button">Inschrijven</a>
-        </section> 
-        <section>
-            <h1>Missie & Visie</h1>
-            <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer gaan, en
-                ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het officiële
-                evenement.
-            </p>
-            <a class="button">Inschrijven</a>
-        </section> 
-        <section>
-            <h1>Over Ons</h1>
-            <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer gaan, en
-                ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het officiële
-                evenement.
-            </p>
-            <a class="button">Inschrijven</a>
-        </section> 
-    </main>
+                }
+            </script>
+        </header>
+        <img src="images/Line-&-Mascot.svg" alt="pencil line" class="pencil-line">
+        <main>
+            <section class="content-container">
+                <img src="images/Zijn-Jullie.svg" alt="Zijn Jullie Een Klas Vol Creativiteit?" class="titel-1">
+                <div class="text-block">
+                    <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer
+                        gaan, en
+                        ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het
+                        officiële
+                        evenement.
+                    </p>
+                    <a class="button">Inschrijven</a>
+                </div>
+            </section>
+            <section class="content-container">
+                <img src="images/Missie-Visie-Logo.svg" alt="Missie & Visie" class="titel-2">
+                <div class="text-block">
+                    <p>Missie:<br>
+                        Elke leerling van het secundair onderwijs op een begrijpelijke 
+                        en inclusieve manier kennis laten maken met de geschiedenis 
+                        van het vakgebied in brede zin, aspecten van zijn rijkdom en 
+                        maatschappelijke relevantie, ongeacht onderwijsvorm of 
+                        studierichting.
+                        <br><br>
+                        Visie:<br>
+                        Maximaliseer leermogelijkheden voor alle leerlingen door 
+                        gratis expertise aan te bieden via duurzame partnerschappen 
+                        met openbare, publiek-private en particuliere instellingen.
+                    </p>
+                </div>
+            </section>
+            <section class="content-container">
+                <img src="images/Deelnemen.svg" alt="Deelnemen" class="titel-3">
+                <div class="text-block">
+                    <p>Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer
+                        gaan, en
+                        ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het
+                        officiële
+                        evenement.
+                    </p>
+                    <a class="button">Inschrijven</a>
+                </div>
+            </section>
+            <div class="text-block">
+                <p>Ik ben Noah! En ben opzoek naar een 
+                    klas die voor de jaarlijkse Geschiedenis 
+                    Olympiade een logo kan ontwerpen. 
+                    Schrijf je zelf in aan de wedstrijd en 
+                    wie weet wordt jullie ontwerp gebruikt.
+                </p>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <a href="#"><img src="images/instagram-icon-tuur.svg" alt="instagram"></a>
+                <a href="#"><img src="images/facebook-icon-tuur.svg" alt="facebook"></a>
+                <a href="#"><img src="images/linkedin-icon-tuur.svg" alt="linkedin"></a>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>
