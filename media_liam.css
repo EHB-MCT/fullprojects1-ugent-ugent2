@@ -1,0 +1,133 @@
+/* @media only screen and (max-width: 600px) {
+    .hamburger-background {
+        display: block;
+    }
+    
+    .nav-items {
+        width: 200px;
+        margin-left: auto;
+    }
+
+    #nav-animation {
+        margin-top: -300px;
+        transition: margin ease .6s;
+    }
+} */
+
+@media only screen and (max-width: 1440px) {
+    .container-missie {
+        top: -160px;
+    }
+
+    .container-deelnemen {
+        margin-top: 0;
+    }
+
+    main > .text-block {
+        margin: 226px 0 10px 20%;
+        padding: 1px 90px 110px 60px;
+    }
+
+    .pillar-left {
+        top: 1690px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container-zijn .text-block {
+        top: -80px
+    }
+
+    .container-missie {
+        top: -120px;
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .container-missie img {
+        max-width: 60%;
+        align-self: flex-end;
+    }
+
+    .container-missie .text-block {
+        display: flex;
+        justify-content: center;
+        top: -40px;
+        align-self: center;
+        max-width: 90%;
+    }
+
+    .container-missie .text-block p:nth-child(1) {
+        margin-right: 40px;
+        margin-top: 0;
+    }
+
+    .container-deelnemen {
+        margin: 70px 0 0 180px
+    }
+
+    .pillar-right {
+        height: 500px;
+        top: 950px;
+    }
+
+    .pillar-left {
+        height: 350px;
+        top: 1300px;
+    }
+
+    main > .text-block {
+        margin: 135px 0 30px 17%;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        font-size: 16px;
+    }
+
+    .pencil-line {
+        display: none;
+    }
+    
+    .mobile-line {
+        display: block;
+    }
+
+    .line-header {
+        width: 45%;
+        right: 0;
+        top: 0;
+    }
+
+    .container-zijn {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .container-missie {
+        margin: 0 100px 0 0;
+    }    
+
+    .container-missie .text-block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer a {
+        width: 20%;
+    }
+    
+    footer ul img {
+        height: 50%;
+    }    
+}
