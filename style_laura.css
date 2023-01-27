@@ -1,0 +1,57 @@
+.wedstrijdreglement {
+    width: 90%;
+    z-index: 2;
+}
+
+.main-subpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-background {
+    display: flex;
+    flex-direction: column;
+    border-radius: 75px;
+    background: rgba(30,100,200,0.6);
+    width: 70%;
+    margin-top: -170px;
+    padding: 50px 75px;
+    z-index: 1;
+}
+
+.content-background ul {
+    flex-direction: column;
+}
+
+.main-subpage ul {
+    list-style:inside;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.main-subpage li + li {
+    margin-top: 45px;
+}
+
+.main-subpage ul:nth-child(1) {
+    margin-top: 175px;
+}
+
+.pos-right {
+    align-self: end;
+}
+
+.line-wedstrijdreglement {
+    width: 60%;
+    align-self: flex-start;
+    margin-top: -100px;
+}
+
+.pillar-left-wedstrijdreglement {
+    top: 40%;
+}
+
+.pillar-right-wedstrijdreglement {
+    top: 100%;
+}
