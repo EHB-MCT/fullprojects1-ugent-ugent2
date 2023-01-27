@@ -1,0 +1,41 @@
+.logo-image {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image > img {
+    max-height: 80%;
+    max-width: 90%;
+}
+
+.logo-info {
+    height: 20%;
+    background-color: #1E64C8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.logo-title {
+    font-weight: bold;
+}
+
+.logo-slogan {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.button-stem {
+    align-self: center;
+    padding: 8px 20px 10px 20px;
+    margin: 0;
+    max-height: 55%;
+}
