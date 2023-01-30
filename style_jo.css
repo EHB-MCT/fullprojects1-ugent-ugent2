@@ -39,3 +39,19 @@
     margin: 0;
     max-height: 55%;
 }
+
+.title-deelnemen {
+    width: 60%;
+    z-index: 2;
+    align-self: flex-start;
+    margin-left: 3%;
+}
+
+.line-inschrijven-top {
+    width: 20%;
+    margin-top: -200px;
+}
+
+.line-inschrijven-bottom {
+    width: 30%;
+}
