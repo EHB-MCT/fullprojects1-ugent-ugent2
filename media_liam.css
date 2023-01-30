@@ -15,6 +15,10 @@
     .pillar-left {
         top: 1690px;
     }
+
+    .pillar-right-wedstrijdreglement {
+        top: 70%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -65,6 +69,10 @@
     .pillar-left {
         height: 350px;
         top: 1300px;
+    }
+
+    .pillar-right-wedstrijdreglement {
+        top: 60%;
     }
 
     main > .text-block {

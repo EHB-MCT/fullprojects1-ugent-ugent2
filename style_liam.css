@@ -19,6 +19,12 @@ body {
     flex-direction: column;
 }
 
+.wrapper-inschrijven {
+    background-image: url("images/line-inschrijven-1.svg"), linear-gradient(#1E64C8, #0497EA);
+    background-size: 8.6%, cover;
+    background-position-x: 15%, 0;
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -106,6 +112,7 @@ main {
 }
 
 .button {
+    width: fit-content;
     cursor: pointer;
     margin-top: 15px;
     padding: 10px 20px 15px 20px;

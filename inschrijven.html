@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,63 +8,99 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style_jo.css">
     <link rel="stylesheet" href="style_lennart.css">
-    <link rel="stylesheet" href="style_laura.css">
     <link rel="stylesheet" href="style_tuur.css">
+    <link rel="stylesheet" href="style_laura.css">
     <link rel="stylesheet" href="style_liam.css">
     <link rel="stylesheet" href="media_liam.css">
     <title>Ugent-Deelnemen</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><img src="images/logo_UGent_NL_RGB_2400_wit.png" alt="logo UGent"></a>
-            <div class="nav-items" id="nav-animation">
-                <a href="index.html">Home</a>
-                <a href="wedstrijdreglement.html">Wedstrijdreglement</a>
-                <a href="inschrijven.html">Inschrijving</a>
-                <a href="stemmen.html">Stem</a>
+    <div class="wrapper wrapper-inschrijven">
+        <header>
+            <nav>
+                <a href="index.html"><img src="images/logo_UGent_NL_RGB_2400_wit.png" alt="logo UGent"></a>
+                <div class="nav-items" id="nav-animation">
+                    <a href="index.html">Home</a>
+                    <a href="wedstrijdreglement.html">Wedstrijdreglement</a>
+                    <a href="inschrijven.html">Inschrijving</a>
+                    <a href="stemmen.html">Stem</a>
+                </div>
+            </nav>
+        </header>
+        
+        <main class="main-subpage">
+            <img src="images/deelnemen.svg" alt="deelnemen" class="title-deelnemen">
+            <div class="content-background form">
+                <div class="inside-form">
+                    <form action="">
+                        <div>
+                            <p>School</p>
+                            <input type="text" name="" placeholder="Naam school">
+                        </div>
+                        <div>
+                            <p>Adres</p>
+                            <input type="text" name="" placeholder="Adres">
+                        </div>
+                        <div>
+                            <p>Naam leerkracht</p>
+                            <input type="text" name="" placeholder="Leerkracht">
+                        </div>
+                        <div>
+                            <p>Vakken leerkracht</p>
+                            <input type="text" name="" placeholder="Vakken">
+                        </div>
+                        <div>
+                            <p>Telefoonnummer leekracht</p>
+                            <input type="text" name="" placeholder="Telefoonnummer">
+                        </div>
+                        <div>
+                            <p>Email leerkracht</p>
+                            <input type="email" name="" placeholder="Email">
+                        </div>
+                        <div>
+                            <p>Met hoeveel nemen jullie deel?</p>
+                            <input type="text" name="" placeholder="Vakken">
+                        </div>
+                        <div>
+                            <p>Met hoeveel hebben jullie aan het logo gewerkt?</p>
+                            <input type="text" name="" placeholder="Telefoonnummer">
+                        </div>
+                        <div>
+                            <p>Slogan</p>
+                            <input type="text" name="" placeholder="Telefoonnummer">
+                        </div>
+                        <div>
+                            <p>Naam school</p>
+                            <input type="text" id="text-field" placeholder="Stel jullie kort voor">
+                        </div>
+                        <label class="container">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span> Ja, ik wens deel te nemen aan de Geschiedenis Olympiade Editie
+                            2023, stuur een email.
+                        </label><br>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>Neen, wij wensen enkel deel te nemen aan de logo wedstrijd.
+                        </label>
+                        <a href="#" class="button">Submit</a>
+                    </form>
+                </div>
             </div>
-        </nav>
-    </header>
-    <div class="image">
-        <img src="/SVG/Deelnemen.svg" alt="">
+        </main>
+        <img src="images/line-inschrijven-2.svg" alt="potlood lijn" class="line-inschrijven-bottom">
     </div>
-    <div class="wrapper">
-        <div class="form">
-            <div class="inside-form">
-            <form action="">
-                <input type="text" name="" placeholder="Naam school">
-                <input type="text" name="" placeholder="Naam leerkracht">
-                <input type="text" name="" placeholder="Adres school">
-                <input type="text" name="" placeholder="Telefoonnummer">
-                <input type="email" name="" placeholder="Email">
-                <input type="text" id="text-field" placeholder="Stel jullie kort voor" >
-                          <!--    <input type="radio" value="">  <label>Ja, ik wens deel te nemen aan de Geschiedenis Olympiade Editie 2023, stuur een email.</label><br>
-                <input type="radio" value=""><label>Neen, wij wensen enkel deel te nemen aan de logo wedstrijd.</label><br>--> 
- <label class="container">
-                    <input type="checkbox" checked="checked">
-                    <span class="checkmark"></span> Ja, ik wens deel te nemen aan de Geschiedenis Olympiade Editie 2023, stuur een email.
-                  </label><br>
-                  
-                  <label class="container">
-                    <input type="checkbox">
-                    <span class="checkmark"></span>Neen, wij wensen enkel deel te nemen aan de logo wedstrijd.
-                  </label>
-                <a href="#" class="button">Submit</a>
-        </form>
-    </div>
-        </div>
-    </div>
-       <div class="image1">
-            <img src="/SVG/JA.svg" alt="">
-        </div>
-        <footer>
-            <img src="images/icoon_UGent_LW_NL_RGB_2400_kleur.png" alt="logo UGent">
-            <ul>
-                <a target="_blank" href="https://www.instagram.com/geschiedenis_olympiade/"><img src="images/instagram-icon-tuur.svg" alt="instagram"></a>
-                <a target="_blank" href="https://www.facebook.com/GeschiedenisOlympiadeUGent"><img src="images/facebook-icon-tuur.svg" alt="facebook"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/geschiedenis-olympiade-ugent-30470b254/"><img src="images/linkedin-icon-tuur.svg" alt="linkedin"></a>
-            </ul>
-        </footer>
+    <footer>
+        <img src="images/icoon_UGent_LW_NL_RGB_2400_kleur.png" alt="logo UGent">
+        <ul>
+            <a target="_blank" href="https://www.instagram.com/geschiedenis_olympiade/"><img
+                    src="images/instagram-icon-tuur.svg" alt="instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/GeschiedenisOlympiadeUGent"><img
+                    src="images/facebook-icon-tuur.svg" alt="facebook"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/geschiedenis-olympiade-ugent-30470b254/"><img
+                    src="images/linkedin-icon-tuur.svg" alt="linkedin"></a>
+        </ul>
+    </footer>
 </body>
+
 </html>
