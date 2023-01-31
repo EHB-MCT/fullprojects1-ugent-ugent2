@@ -79,11 +79,49 @@
         margin: 135px 0 30px 17%;
         padding-bottom: 80px;
     }
+
+
+    /* Stem */
+    .line-wedstrijdreglement {
+        margin-top: -60px;
+    }
 }
 
-@media only screen and (max-width: 360px) {
+
+@media only screen and (max-width: 768px) {
+    /* Wedstrijdreglement */
+    .pillar-right-wedstrijdreglement {
+        top: 80%;
+    }
+    
+    /* Stem */
+    .stem-page .pillar-left-wedstrijdreglement {
+        top: 80%;
+    }
+
+    .stem-page .pillar-right-wedstrijdreglement {
+        top: 200%;
+    }
+
+    .stem-nu {
+        margin: -10px auto 30px auto;
+    }
+    
+    .logo-container {
+        height: 300px;
+    }
+
+    .line-wedstrijdreglement {
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     body {
         font-size: 16px;
+    }
+    .nav-items {
+        display: none;
     }
 
     .pencil-line {
@@ -115,11 +153,62 @@
         align-items: center;
     }
 
+    footer {
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+
+    footer > img {
+        max-width: 65%;
+    }
+
+    footer ul {
+        width: 100%;
+        justify-content: center;
+    }
+
     footer a {
         width: 20%;
+        margin-right: 0;
     }
     
     footer ul img {
         height: 50%;
     }    
+
+    /* Stem */
+    .stem-page .pillar-left-wedstrijdreglement {
+        top: 60%;
+        height: 200px;
+    }
+
+    .stem-page .pillar-right-wedstrijdreglement {
+        top: 150%;
+        height: 300px;
+    }
+
+    .logo-container {
+        height: 175px;
+    }
+
+    .main-stem {
+        column-gap: 20px;
+    }
+
+    .logo-title {
+        font-size: 13px;
+    }
+
+    .logo-slogan {
+        font-size: 10px;
+    }
+
+    .button-stem {
+        padding: 5px 10px 7px 10px;
+    }
+
+    .line-wedstrijdreglement {
+        margin-top: 0;
+    }
 }
