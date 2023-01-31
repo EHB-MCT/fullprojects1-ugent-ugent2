@@ -19,12 +19,6 @@ body {
     flex-direction: column;
 }
 
-.wrapper-inschrijven {
-    background-image: url("images/line-inschrijven-1.svg"), linear-gradient(#1E64C8, #0497EA);
-    background-size: 8.6%, cover;
-    background-position-x: 15%, 0;
-}
-
 /* HEADER */
 header {
     width: 100%;
@@ -266,10 +260,10 @@ footer ul img {
 
 
 /* Inschrijven */
-body {
-    margin: 0;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: white;
+.wrapper-inschrijven {
+    background-image: url("images/line-inschrijven-1.svg"), linear-gradient(#1E64C8, #0497EA);
+    background-size: 8.6%, cover;
+    background-position-x: 15%, 0;
 }
 
 header {
@@ -322,19 +316,8 @@ form div p {
     margin-bottom: 10px;
 }
 
-input[type=text] {
-    width: 90%;
-    padding: 15px;
-    box-sizing: border-box;
-    opacity: 0.35;
-    border: none;
-    border-radius: 20px;
-    position: relative;
-    float: left;
-}
-
-input[type=email] {
-    width: 90%;
+input[type=text], input[type=email] {
+    width: 100%;
     padding: 15px;
     box-sizing: border-box;
     opacity: 0.35;
@@ -343,14 +326,12 @@ input[type=email] {
 }
 
 #text-field {
-    width: 98%;
-    margin: 1%;
-    padding: 20px 60px 150px 20px;
+    width: 100%;
+    padding: 15px 15px 120px 15px;
 }
 
 input[type=radio] {
-    width: 100%;
-    margin: 1%;
+    margin-right: 15px;
 }
 
 .inside-form {
@@ -360,28 +341,8 @@ input[type=radio] {
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px 0;
+    grid-gap: 20px 40px;
 }
-
-.title-deelnemen {
-    z-index: 2;
-}
-
-.image {
-    margin: -100px 0;
-    z-index: -10;
-}
-
-.image1 {
-    position: relative;
-    bottom: 900px;
-    z-index: -5;
-}
-
-.image1 img {
-    width: 100%;
-}
-
 
 .title-deelnemen {
     width: 60%;
@@ -398,6 +359,38 @@ form {
 .line-inschrijven-bottom {
     width: 30%;
 }
+
+form .button {
+    margin-left: auto;
+    grid-row: 7/8;
+}
+
+.slogan-box {
+    grid-row: 4/5;
+    grid-column: 1/3;
+}
+
+.large-box {
+    grid-row: 5/6;
+    grid-column: 1/3;
+}
+
+.container {
+    grid-column: 1/2;
+}
+
+.extra-sign-up {
+    grid-row: 6/7;
+}
+
+.extra-sign-up + .container {
+    grid-row: 7/8;
+}
+
+.container span {
+    font-size: 18px;
+}
+
 
 /* Stem */
 .stem-nu {
