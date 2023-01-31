@@ -12,12 +12,19 @@
         padding: 1px 90px 110px 60px;
     }
 
-    .pillar-left {
-        top: 1690px;
-    }
-
+    /* Wedstrijdreglement */
     .pillar-right-wedstrijdreglement {
         top: 70%;
+    }
+
+    /* Inschrijven */
+    .wrapper-inschrijven {
+        background-size: 8.5%, cover;
+    }
+
+    /* Stem */
+    .stem-page .pillar-right-wedstrijdreglement {
+        top: 200%;
     }
 }
 
@@ -28,6 +35,10 @@
 
     .container-zijn .text-block {
         top: -80px
+    }
+
+    .button {
+        font-size: 14px;
     }
 
     .container-missie {
@@ -62,17 +73,7 @@
     }
 
     .pillar-right {
-        height: 500px;
         top: 950px;
-    }
-
-    .pillar-left {
-        height: 350px;
-        top: 1300px;
-    }
-
-    .pillar-right-wedstrijdreglement {
-        top: 60%;
     }
 
     main > .text-block {
@@ -80,20 +81,59 @@
         padding-bottom: 80px;
     }
 
+    /* Inschrijven */
+    .wrapper-inschrijven {
+        background-size: 8.05%, cover;
+    }
+
+    /* Wedstrijdreglement */
+    .pos-right {
+        font-size: 14px;
+    }
+
+    .pillar-right-wedstrijdreglement {
+        top: 80%;
+    }
+
+    .content-background ul li {
+        padding: 0 50px;
+    }
+
+    .main-subpage li+li {
+        margin-top: 30px;
+    }
 
     /* Stem */
     .line-wedstrijdreglement {
         margin-top: -60px;
+    }
+
+    .stem-page .pillar-right-wedstrijdreglement {
+        top: 200%;
     }
 }
 
 
 @media only screen and (max-width: 768px) {
     /* Wedstrijdreglement */
+    .pillar-left-wedstrijdreglement {
+        height: 400px;
+    }
+
     .pillar-right-wedstrijdreglement {
         top: 80%;
+        height: 500px;
+    }
+
+    .content-background {
+        padding: 30px 50px;
     }
     
+    /* Inschrijven */
+    .wrapper-inschrijven {
+        background-size: 7.5%, cover;
+    }
+
     /* Stem */
     .stem-page .pillar-left-wedstrijdreglement {
         top: 80%;
@@ -176,6 +216,39 @@
     footer ul img {
         height: 50%;
     }    
+
+    /* Wedstrijdreglment */
+    .content-background {
+        margin-top: -70px;
+        width: 60%;
+    }
+    
+    .main-subpage ul {
+        margin-top: 70px;
+    }
+
+    .content-background ul li {
+        padding: 0;
+    }
+
+    /* Inschrijven */
+    .title-deelnemen {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .inside-form {
+        margin-top: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container span {
+        font-size: 14px;
+    }
 
     /* Stem */
     .stem-page .pillar-left-wedstrijdreglement {

@@ -69,6 +69,7 @@ nav a img {
 
 .pillar-right {
     align-self: flex-end;
+    height: 600px;
 }
 
 .pillar-right-home {
@@ -111,6 +112,7 @@ main {
     background-color: #FFD200;
     font-size: 16px;
     text-decoration: none;
+    align-self: center;
 }
 
 .container-missie {
@@ -129,7 +131,7 @@ main {
 
 .container-deelnemen {
     max-width: 40%;
-    margin: 30px 0 0 250px;
+    margin: 90px 0 0 250px;
     display: flex;
     flex-direction: column;
 }
@@ -203,6 +205,10 @@ footer ul img {
     align-items: center;
 }
 
+.content-background ul li {
+    padding: 0 150px;
+}
+
 .content-background {
     display: flex;
     flex-direction: column;
@@ -219,21 +225,19 @@ footer ul img {
 }
 
 .main-subpage ul {
+    margin-top: 170px;
     list-style: inside;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .main-subpage li+li {
     margin-top: 45px;
 }
 
-.main-subpage ul:nth-child(1) {
-    margin-top: 175px;
-}
-
 .pos-right {
     align-self: end;
+    font-size: 16px;
 }
 
 .line-wedstrijdreglement {
@@ -249,11 +253,10 @@ footer ul img {
     top: 100%;
 }
 
-
 /* Inschrijven */
 .wrapper-inschrijven {
     background-image: url("images/line-inschrijven-1.svg"), linear-gradient(#1E64C8, #0497EA);
-    background-size: 8.6%, cover;
+    background-size: 8.63%, cover;
     background-position-x: 15%, 0;
 }
 
@@ -408,7 +411,6 @@ form .button {
 }
 
 .button-stem {
-    align-self: center;
     padding: 8px 20px 10px 20px;
     margin: 0;
     max-height: 55%;
