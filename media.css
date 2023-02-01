@@ -153,7 +153,6 @@
     .container-zijn {
         max-width: 90%;
         padding: 0;
-        margin: 0 auto 0 auto;
     }
 
     .container-zijn .text-block {
@@ -280,25 +279,38 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .line-header {
-        width: 45%;
-        right: 0;
-        top: 0;
+    .container-zijn .text-block {
+        margin-top: -15%;
+        margin-left: 0;
     }
 
-    .container-zijn {
+    .container-missie, .container-deelnemen {
+        max-width: 90%;
+    }
+
+    .container-deelnemen {
+        margin-bottom: 20%;
+    }
+
+    .container-deelnemen img {
+        align-self: center;
+    }
+
+    .container-deelnemen .text-block {
+        margin-top: 10%;
         max-width: 100%;
-        padding: 0 20px;
     }
- 
-    .container-missie {
-        margin: 0 100px 0 0;
-    }    
 
-    .container-missie .text-block {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    main>div>.text-block {
+        max-width: 50%;
+        top: 190%;
+        margin: 0;
+        padding: 4% 10% 15% 3%;
+        right: 35%;
+    }
+
+    .noah-mobile {
+        margin: 0 5% 12px auto;
     }
 
     footer {
