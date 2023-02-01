@@ -55,10 +55,11 @@ nav a img {
 
 /* MAIN */
 .pencil-line {
-    position: absolute;
+    position: relative;
+    z-index: -1;
 }
 
-.mobile-line {
+.mobile-line, .zijn-jullie-mobile, .missie-visie-mobile, .noah-mobile {
     display: none;
 }
 
@@ -88,12 +89,11 @@ main {
 
 .container-zijn {
     max-width: 80%;
-    padding: 40px 0 20px 100px;
+    padding: 40px 0 20px 5%;
 }
 
 .container-zijn .text-block {
-    position: relative;
-    top: -100px;
+    margin-top: -8%;
     max-width: 40%;
 }
 
@@ -116,28 +116,20 @@ main {
 }
 
 .container-missie {
-    margin: 0 100px 0 auto;
+    margin: 5% 5% 0 auto;
     max-width: 50%;
-    position: relative;
-    top: -160px;
 }
 
 .container-missie .text-block {
-    position: relative;
-    left: 70px;
-    top: -130px;
+    margin-top: -15%;
     max-width: 80%;
 }
 
 .container-deelnemen {
     max-width: 40%;
-    margin: 90px 0 0 250px;
+    margin: 25% 0 0 15%;
     display: flex;
     flex-direction: column;
-}
-
-.container-deelnemen .text-block {
-    z-index: 10;
 }
 
 .container-deelnemen img {
@@ -146,28 +138,37 @@ main {
 }
 
 .container-deelnemen .text-block {
+    margin-top: 5%;
     max-width: 80%;
 }
 
-main>.text-block {
+main>div>.text-block {
     max-width: 25%;
-    padding: 30px 150px 100px 80px;
-    margin: 337px 0 10px 20%;
+    padding: 3% 150px 6% 80px;
+    margin: 15% 0 10px 17%;
     background-image: url(images/text-balloon.svg);
     background-repeat: no-repeat;
     background-size: 90%;
 }
 
-main>.text-block>p {
+main>div>.text-block>p {
     position: relative;
     top: 40px;
 }
 
+.main-container {
+    position: absolute;
+    z-index: 4;
+    margin-top: -164%;
+}
+
 /* FOOTER */
 footer {
+    position: relative;
     z-index: 5;
     height: 80px;
     background-color: white;
+    margin-top: -20px;
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
@@ -213,7 +214,7 @@ footer ul img {
     display: flex;
     flex-direction: column;
     border-radius: 75px;
-    background: rgba(30, 100, 200, 0.6);
+    background: rgba(30, 100, 200, 0.8);
     width: 70%;
     margin-top: -170px;
     padding: 50px 75px;
@@ -247,6 +248,7 @@ footer ul img {
 
 .pillar-left-wedstrijdreglement {
     top: 40%;
+    align-self: flex-start;
 }
 
 .pillar-right-wedstrijdreglement {
@@ -264,13 +266,29 @@ header {
     width: 100%;
 }
 
-.image {
-    position: relative;
-    bottom: 60px;
+.victory-cup {
+    position: absolute;
+    max-width: 20%;
+    align-self: flex-start;
+    left: 10%;
+    top: 5%;
 }
 
-.image img {
-    width: 100%;
+.wrapper-inschrijven .pillar-left-wedstrijdreglement {
+    top: 80%;
+}
+
+.wrapper-inschrijven .pillar-right-wedstrijdreglement {
+    top: 15%;
+    height: 300px;
+}
+
+.noah-inschrijven {
+    z-index: 10;
+    max-width: 12%;
+    align-self: flex-end;
+    position: absolute;
+    top: 80%;
 }
 
 form div p {
@@ -281,9 +299,11 @@ input[type=text], input[type=email] {
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
-    opacity: 0.35;
     border: none;
     border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color:#1E64C8;
+    font-weight: 600;
 }
 
 #text-field {

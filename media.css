@@ -1,17 +1,20 @@
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1700px) {
     .container-missie {
-        top: -50px;
+        margin-top: -1%;
+        max-width: 45%;
     }
+}
 
+@media only screen and (max-width: 1600px) {
     .container-deelnemen {
-        margin-top: 290px;
+        margin-top: 20%;
     }
-
-    main > .text-block {
-        margin: 500px 0 -10px 20%;
-        padding: 40px 90px 140px 60px;
+    main>div>.text-block {
+        padding: 2% 150px 7% 80px;
     }
+}
 
+@media only screen and (min-width: 1440px) {
     /* Wedstrijdreglement */
     .pillar-right-wedstrijdreglement {
         top: 70%;
@@ -29,6 +32,14 @@
 }
 
 @media only screen and (max-width: 1440px) {
+    .container-missie {
+        margin-top: -5%;
+    }
+
+    .container-deelnemen {
+        margin-top: 23%;
+    }
+    
     /* Inschrijven */
     .wrapper-inschrijven {
         background-size: 8.5%, cover;
@@ -40,52 +51,37 @@
         font-size: 16px;
     }
 
-    .container-zijn .text-block {
-        top: -80px
-    }
-
     .button {
         font-size: 14px;
     }
 
-    .container-missie {
-        top: -120px;
-        max-width: 70%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 50px;
-    }
-
-    .container-missie img {
-        max-width: 60%;
-        align-self: flex-end;
-    }
-
-    .container-missie .text-block {
-        display: flex;
-        justify-content: center;
-        top: -40px;
-        align-self: center;
-        max-width: 90%;
-    }
-
-    .container-missie .text-block p:nth-child(1) {
-        margin-right: 40px;
-        margin-top: 0;
-    }
-
-    .container-deelnemen {
-        margin: 70px 0 0 180px
+    .pillar-left-home {
+        height: 350px;
+        top: 150%;
     }
 
     .pillar-right {
-        top: 950px;
+        height: 450px;
+        top: 110%;
     }
 
-    main > .text-block {
-        margin: 135px 0 30px 17%;
-        padding-bottom: 80px;
+    .container-missie {
+        margin-top: -10%;
+        max-width: 50%;
+    }
+
+    .container-missie .text-block {
+        max-width: 100%;
+    }
+
+    .container-deelnemen {
+        margin-top: 23%;
+    }
+    
+    main>div>.text-block {
+        max-width: 30%;
+        margin: 10% 0 0 14%;
+        padding: 1% 8% 10% 3%;
     }
 
     /* Inschrijven */
@@ -98,8 +94,13 @@
         font-size: 14px;
     }
 
+    .pillar-left-wedstrijdreglement {
+        top: 30%;
+        height: 350px;
+    }
+
     .pillar-right-wedstrijdreglement {
-        top: 80%;
+        top: 55%;
     }
 
     .content-background ul li {
@@ -120,8 +121,81 @@
     }
 }
 
-
 @media only screen and (max-width: 768px) {
+    .nav-items {
+        display: none;
+    }
+    
+    .pencil-line, .container-zijn > :nth-child(1), .container-missie > :nth-child(1) {
+        display: none;
+    }
+
+    .mobile-line, .zijn-jullie-mobile, .missie-visie-mobile, .noah-mobile {
+        display: block;
+    }
+
+    .line-header {
+        position: absolute;
+        z-index: 10;
+        max-width: 40%;
+        right: 0;
+        top: 0;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: static;
+        margin-top: 0;
+    }
+
+    .container-zijn {
+        max-width: 90%;
+        padding: 0;
+        margin: 0 auto 0 auto;
+    }
+
+    .container-zijn .text-block {
+        margin-top: -25%;
+        margin-left: 5%;
+        max-width: 65%;
+    }
+
+    .container-missie {
+        margin: 15% 0;
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .missie-visie-mobile {
+        max-width: 75%;
+    }
+
+    .container-deelnemen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 75%;
+        margin: 0;
+    }
+
+    main>div>.text-block {
+        position: absolute;
+        max-width: 50%;
+        top: 223%;
+        margin: 0;
+        padding: 4% 10% 15% 3%;
+        right: 35%;
+    }
+
+    .noah-mobile {
+        max-width: 30%;
+        margin: 0 10% 12px auto;
+    }
+
     /* Wedstrijdreglement */
     .pillar-left-wedstrijdreglement {
         top: 30%;
@@ -139,7 +213,48 @@
     
     /* Inschrijven */
     .wrapper-inschrijven {
-        background-size: 7.5%, cover;
+        background-image: linear-gradient(#1E64C8, #0497EA);
+        background-size: cover;
+        background-position-x: 0;
+    }
+
+    .victory-cup {
+        left: 20%;
+        top: 10%;
+    }
+
+    .wrapper-inschrijven .pillar-left-wedstrijdreglement {
+        top: 110%;
+    }
+
+    .wrapper-inschrijven .pillar-right-wedstrijdreglement {
+        top: 25%;
+    }
+
+    .title-deelnemen {
+        width: 90%;
+        margin: -40px auto 100px auto;
+    }
+
+    .content-background {
+        width: 60%;
+    }
+
+    .inside-form {
+        margin-top: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container span {
+        font-size: 14px;
+    }
+    
+    .noah-inschrijven {
+        max-width: 18%;
     }
 
     /* Stem */
@@ -165,21 +280,6 @@
 }
 
 @media only screen and (max-width: 425px) {
-    body {
-        font-size: 16px;
-    }
-    .nav-items {
-        display: none;
-    }
-
-    .pencil-line {
-        display: none;
-    }
-    
-    .mobile-line {
-        display: block;
-    }
-
     .line-header {
         width: 45%;
         right: 0;
@@ -228,7 +328,7 @@
     /* Wedstrijdreglment */
     .content-background {
         margin-top: -70px;
-        width: 60%;
+        padding: 30px 35px;
     }
     
     .main-subpage ul {
@@ -240,22 +340,25 @@
     }
 
     /* Inschrijven */
-    .title-deelnemen {
-        width: 90%;
-        margin: 0 auto;
+    .victory-cup {
+        left: 3%;
+        top: 27%;
+    }
+
+    .line-inschrijven-bottom {
+        width: 50%;
+    }
+
+    .wrapper-inschrijven .pillar-right-wedstrijdreglement {
+        top: 35%;
     }
 
     .inside-form {
-        margin-top: 50px;
+        margin-top: 0;
     }
 
-    form {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container span {
-        font-size: 14px;
+    .noah-inschrijven {
+        top: 140%;
     }
 
     /* Stem */
@@ -265,7 +368,7 @@
     }
 
     .stem-page .pillar-right-wedstrijdreglement {
-        top: 150%;
+        top: 120%;
         height: 300px;
     }
 
@@ -275,6 +378,7 @@
 
     .main-stem {
         column-gap: 20px;
+        grid-template-columns: 1fr;
     }
 
     .logo-title {
@@ -290,6 +394,6 @@
     }
 
     .line-wedstrijdreglement {
-        margin-top: 0;
+        margin-top: 20px;
     }
 }
