@@ -57,7 +57,8 @@
             <img src="../images/deelnemen.svg" alt="deelnemen" class="title-deelnemen">
             <div class="content-background form">
                 <div class="inside-form">
-                    <form target="_blank" action="https://formsubmit.co/tuur.vanbergen@outlook.com" method="POST">
+                    <!-- Used code from FormSubmit (https://formsubmit.co) to send email based on form input -->
+                    <form target="_blank" action="https://formsubmit.co/smiliesmilie001@gmail.com" method="POST" enctype="multipart/form-data">
                         <div>
                             <p>School</p>
                             <input type="text" name="school" placeholder="Erasmushogeschool Brussel" required>
@@ -99,7 +100,7 @@
                             <input type="radio" name="sign-up">
                             <span>Neen, wij wensen enkel deel te nemen aan de logo wedstrijd.</span>
                         </label>
-                        <input type="file" id="myFile" name="filename" required>
+                        <input type="file" id="myFile" name="filename" accept="image/png, image/jpeg" required>
                         <input type="submit" class="button"></input>
                     </form>
                 </div>
