@@ -51,57 +51,77 @@
         <main class="main-subpage">
             <img src="../images/victory-cup.svg" alt="beker" class="victory-cup">
             <img src="../images/pillar-left.svg" alt="pilaar" class="pillar pillar-left-wedstrijdreglement">
-            <img src="../images/pillar-right.svg" alt="pilaar" class="pillar pillar-right pillar-right-wedstrijdreglement">
+            <img src="../images/pillar-right.svg" alt="pilaar"
+                class="pillar pillar-right pillar-right-wedstrijdreglement">
             <img src="../images/noah-inschrijven.svg" alt="Noah het potlood" class="noah-inschrijven">
             <img src="../images/deelnemen.svg" alt="deelnemen" class="title-deelnemen">
             <div class="content-background form">
                 <div class="inside-form">
-                    <form action="/action_page.php">
+                    <form target="_blank" action="https://formsubmit.co/tuur.vanbergen@outlook.com" method="POST">
                         <div>
                             <p>School</p>
-                            <input type="text" name="" placeholder="Erasmushogeschool Brussel">
+                            <input type="text" name="school" placeholder="Erasmushogeschool Brussel" required>
                         </div>
                         <div>
                             <p>Adres</p>
-                            <input type="text" name="" placeholder="Nijverheidskaai 170, 1070 Anderlecht">
+                            <input type="text" name="adres" placeholder="Nijverheidskaai 170, 1070 Anderlecht" required>
                         </div>
                         <div>
                             <p>Klas</p>
-                            <input type="text" name="" placeholder="1MCTb">
+                            <input type="text" name="klas" placeholder="1MCTb" required>
                         </div>
                         <div>
                             <p>Telefoonnummer leekracht</p>
-                            <input type="text" name="" placeholder="+32 471 70 73 42">
+                            <input type="text" name="telefoonnummer" placeholder="+32 471 70 73 42" required>
                         </div>
                         <div>
                             <p>Email leerkracht</p>
-                            <input type="email" name="" placeholder="john.doe@gmail.com">
+                            <input type="email" name="email" placeholder="john.doe@gmail.com" required>
                         </div>
                         <div>
                             <p>Aantal deelnemers</p>
-                            <input type="text" name="" placeholder="17">
+                            <input type="text" name="deelnemers" placeholder="17" required>
                         </div>
                         <div class="slogan-box">
                             <p>Slogan</p>
-                            <input type="text" name="" placeholder="Groen moet je doen!">
+                            <input type="text" name="slogan" placeholder="Groen moet je doen!" required>
                         </div>
                         <div class="large-box">
                             <p>Waarom doen jullie mee?</p>
-                            <input type="text" id="text-field" placeholder="Omdat wij...">
+                            <input type="text" id="text-field" placeholder="Omdat wij..." required>
                         </div>
                         <label class="container extra-sign-up">
                             <input type="radio" name="sign-up" checked="checked">
                             <span>Ja, ik wens deel te nemen aan de Geschiedenis Olympiade Editie
-                                2023, stuur een email.</span> 
+                                2023, stuur een email.</span>
                         </label>
                         <label class="container">
                             <input type="radio" name="sign-up">
                             <span>Neen, wij wensen enkel deel te nemen aan de logo wedstrijd.</span>
                         </label>
-                        <input type="file" id="myFile" name="filename">
+                        <input type="file" id="myFile" name="filename" required>
                         <input type="submit" class="button"></input>
                     </form>
                 </div>
+                <!-- <div class="container">
+                    <h1>FormSubmit Demo</h1>
+                    <form target="_blank" action="https://formsubmit.co/tuur.vanbergen@outlook.com" method="POST">
+                        <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="form-group">
+                        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                    </form>
+                    </div> -->
             </div>
         </main>
         <img src="../images/line-inschrijven-2.svg" alt="potlood lijn" class="line-inschrijven-bottom">
@@ -109,9 +129,12 @@
     <footer>
         <img src="../images/icoon_UGent_LW_NL_RGB_2400_kleur.png" alt="logo UGent">
         <ul>
-            <a target="_blank" href="https://www.instagram.com/geschiedenis_olympiade/"><img src="../images/instagram-icon-tuur.svg" alt="instagram"></a>
-            <a target="_blank" href="https://www.facebook.com/GeschiedenisOlympiadeUGent"><img src="../images/facebook-icon-tuur.svg" alt="facebook"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/geschiedenis-olympiade-ugent-30470b254/"><img src="../images/linkedin-icon-tuur.svg" alt="linkedin"></a>
+            <a target="_blank" href="https://www.instagram.com/geschiedenis_olympiade/"><img
+                    src="../images/instagram-icon-tuur.svg" alt="instagram"></a>
+            <a target="_blank" href="https://www.facebook.com/GeschiedenisOlympiadeUGent"><img
+                    src="../images/facebook-icon-tuur.svg" alt="facebook"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/geschiedenis-olympiade-ugent-30470b254/"><img
+                    src="../images/linkedin-icon-tuur.svg" alt="linkedin"></a>
         </ul>
     </footer>
 </body>
