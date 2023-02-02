@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="media.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>UGent Logo Wedstrijd</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>UGent Logo Wedstrijd</title>
+</head>
+
 <body>
     <div class="wrapper stem-page">
         <header>
@@ -21,17 +23,30 @@
                     <a href="inschrijven.html">Inschrijving</a>
                     <a href="stemmen.html">Stem</a>
                 </div>
-                <div class="mobile-nav">
-                    <div class="mobile-nav-items">
+                <!-- Hamburger with overlay used from W3Schools: https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp-->
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
                         <a href="index.html">Home</a>
                         <a href="wedstrijdreglement.html">Wedstrijdreglement</a>
                         <a href="inschrijven.html">Inschrijving</a>
                         <a href="stemmen.html">Stem</a>
                     </div>
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                  </a>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <script>
+                    function openNav() {
+                        document.getElementById("myNav").style.height = "100%";
+                        document.body.style.overflow = "hidden";
+                        document.body.style.maxHeight = "100vh";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav").style.height = "0%";
+                        document.body.style.overflow = "auto";
+                        document.body.style.maxHeight = "auto";
+                    }
+                </script>
             </nav>
         </header>
         <img src="images/pillar-left.svg" alt="pilaar" class="pillar pillar-left-wedstrijdreglement">
@@ -44,8 +59,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 1</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -56,8 +71,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 2</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -68,8 +83,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 3</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -80,8 +95,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 4</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -92,8 +107,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 5</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -104,8 +119,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 6</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -116,8 +131,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 7</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -128,8 +143,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 8</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -140,8 +155,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 9</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -152,8 +167,8 @@
                 </div>
                 <div class="logo-info">
                     <div class="logo-text">
-                        <h2 class="logo-title">Logo 10</h2>
-                        <p class="logo-slogan">slogan</p>
+                        <h2 class="logo-title">1MCTb</h2>
+                        <p class="logo-slogan">Erasmushogeschool Brussel</p>
                     </div>
                     <a href='#' class="button button-stem">Stem</a>
                 </div>
@@ -163,11 +178,15 @@
         <footer>
             <img src="images/icoon_UGent_LW_NL_RGB_2400_kleur.png" alt="logo UGent">
             <ul>
-                <a target="_blank" href="https://www.instagram.com/geschiedenis_olympiade/"><img src="images/instagram-icon-tuur.svg" alt="instagram"></a>
-                <a target="_blank" href="https://www.facebook.com/GeschiedenisOlympiadeUGent"><img src="images/facebook-icon-tuur.svg" alt="facebook"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/geschiedenis-olympiade-ugent-30470b254/"><img src="images/linkedin-icon-tuur.svg" alt="linkedin"></a>
+                <a target="_blank" href="https://www.instagram.com/geschiedenis_olympiade/"><img
+                        src="images/instagram-icon-tuur.svg" alt="instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/GeschiedenisOlympiadeUGent"><img
+                        src="images/facebook-icon-tuur.svg" alt="facebook"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/geschiedenis-olympiade-ugent-30470b254/"><img
+                        src="images/linkedin-icon-tuur.svg" alt="linkedin"></a>
             </ul>
         </footer>
     </div>
 </body>
+
 </html>

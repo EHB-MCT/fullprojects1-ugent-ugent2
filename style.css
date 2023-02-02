@@ -53,13 +53,63 @@ nav a img {
     color: white;
 }
 
+nav span {
+    display: none;
+    z-index: 15;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 16px 8px;
+    text-decoration: none;
+    font-family: 'Segoe';
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    font-size: 60px;
+  }
+
 /* MAIN */
 .pencil-line {
     position: relative;
     z-index: -1;
 }
 
-.mobile-line, .zijn-jullie-mobile, .missie-visie-mobile, .noah-mobile {
+.mobile-line,
+.zijn-jullie-mobile,
+.missie-visie-mobile,
+.noah-mobile {
     display: none;
 }
 
@@ -295,14 +345,15 @@ form div p {
     margin-bottom: 10px;
 }
 
-input[type=text], input[type=email] {
+input[type=text],
+input[type=email] {
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
     border: none;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.8);
-    color:#1E64C8;
+    color: #1E64C8;
     font-weight: 600;
     font-size: 15px;
 }
@@ -365,7 +416,7 @@ form .button {
     grid-row: 6/7;
 }
 
-.extra-sign-up + .container {
+.extra-sign-up+.container {
     grid-row: 7/8;
 }
 

@@ -9,12 +9,14 @@
     .container-deelnemen {
         margin-top: 20%;
     }
+
     main>div>.text-block {
         padding: 2% 150px 7% 80px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
+
     /* Wedstrijdreglement */
     .pillar-right-wedstrijdreglement {
         top: 70%;
@@ -39,7 +41,7 @@
     .container-deelnemen {
         margin-top: 23%;
     }
-    
+
     /* Inschrijven */
     .wrapper-inschrijven {
         background-size: 8.5%, cover;
@@ -77,7 +79,7 @@
     .container-deelnemen {
         margin-top: 23%;
     }
-    
+
     main>div>.text-block {
         max-width: 30%;
         margin: 10% 0 0 14%;
@@ -122,15 +124,32 @@
 }
 
 @media only screen and (max-width: 768px) {
+    nav {
+        padding: 35px;
+    }
+
     .nav-items {
         display: none;
     }
-    
-    .pencil-line, .container-zijn > :nth-child(1), .container-missie > :nth-child(1) {
+
+    .overlay {
+        overflow-y: auto;
+    }
+
+    nav span {
+        display: block;
+    }
+
+    .pencil-line,
+    .container-zijn> :nth-child(1),
+    .container-missie> :nth-child(1) {
         display: none;
     }
 
-    .mobile-line, .zijn-jullie-mobile, .missie-visie-mobile, .noah-mobile {
+    .mobile-line,
+    .zijn-jullie-mobile,
+    .missie-visie-mobile,
+    .noah-mobile {
         display: block;
     }
 
@@ -168,7 +187,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .missie-visie-mobile {
         max-width: 75%;
     }
@@ -209,10 +228,10 @@
     .content-background {
         padding: 30px 50px;
     }
-    
+
     /* Inschrijven */
     .wrapper-inschrijven {
-        background-image: linear-gradient(#1E64C8, #0497EA);
+        background-image: linear-gradient(#1e64c8, #0497ea);
         background-size: cover;
         background-position-x: 0;
     }
@@ -251,7 +270,7 @@
     .container span {
         font-size: 14px;
     }
-    
+
     .noah-inschrijven {
         max-width: 18%;
     }
@@ -268,7 +287,7 @@
     .stem-nu {
         margin: -10px auto 30px auto;
     }
-    
+
     .logo-container {
         height: 300px;
     }
@@ -278,13 +297,24 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
+    .overlay a {
+        font-size: 25px;
+    }
+
+    .overlay .closebtn {
+        font-size: 45px;
+        top: 5px;
+        right: 25px;
+    }
+
     .container-zijn .text-block {
         margin-top: -15%;
         margin-left: 0;
     }
 
-    .container-missie, .container-deelnemen {
+    .container-missie,
+    .container-deelnemen {
         max-width: 90%;
     }
 
@@ -319,7 +349,7 @@
         align-items: center;
     }
 
-    footer > img {
+    footer>img {
         max-width: 65%;
     }
 
@@ -332,17 +362,17 @@
         width: 20%;
         margin-right: 0;
     }
-    
+
     footer ul img {
         height: 50%;
-    }    
+    }
 
     /* Wedstrijdreglment */
     .content-background {
         margin-top: -70px;
         padding: 30px 35px;
     }
-    
+
     .main-subpage ul {
         margin-top: 70px;
     }

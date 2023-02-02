@@ -22,21 +22,48 @@
                     <a href="inschrijven.html">Inschrijving</a>
                     <a href="stemmen.html">Stem</a>
                 </div>
+                <!-- Hamburger with overlay used from W3Schools: https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp-->
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="wedstrijdreglement.html">Wedstrijdreglement</a>
+                        <a href="inschrijven.html">Inschrijving</a>
+                        <a href="stemmen.html">Stem</a>
+                    </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <script>
+                    function openNav() {
+                        document.getElementById("myNav").style.height = "100%";
+                        document.body.style.overflow = "hidden";
+                        document.body.style.maxHeight = "100vh";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav").style.height = "0%";
+                        document.body.style.overflow = "auto";
+                        document.body.style.maxHeight = "auto";
+                    }
+                </script>
             </nav>
         </header>
         <img src="images/pillar-right.svg" alt="pilaar" class="pillar pillar-right pillar-right-home">
         <img src="images/pillar-left.svg" alt="pilaar" class="pillar pillar-left-home">
         <img src="images/mobile-line-1.svg" alt="potlood lijn" class="pencil-line mobile-line line-header">
-        <main>     
+        <main>
             <img src="images/line-&-mascot.svg" alt="potlood lijn" class="pencil-line">
-            <div class="main-container">   
+            <div class="main-container">
                 <section class="container-zijn">
                     <img src="images/zijn-jullie.svg" alt="Zijn Jullie Een Klas Vol Creativiteit?">
-                    <img src="images/mobile-zijn-jullie.svg" alt="Zijn Jullie Een Klas Vol Creativeit" class="zijn-jullie-mobile">
+                    <img src="images/mobile-zijn-jullie.svg" alt="Zijn Jullie Een Klas Vol Creativeit"
+                        class="zijn-jullie-mobile">
                     <div class="text-block">
-                        <p class="text-with-button">Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer
+                        <p class="text-with-button">Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade.
+                            Laat jullie verbeelding te keer
                             gaan, en
-                            ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het
+                            ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor
+                            het
                             officiële
                             evenement.
                         </p>
@@ -47,14 +74,14 @@
                     <img src="images/missie-visie-logo.svg" alt="Missie & Visie">
                     <img src="images/mobile-missie-visie-logo.svg" alt="Missie & Visie" class="missie-visie-mobile">
                     <div class="text-block">
-                        <p>Elke leerling van het secundair onderwijs op een begrijpelijke 
-                            en inclusieve manier kennis laten maken met de geschiedenis 
-                            van het vakgebied in brede zin, aspecten van zijn rijkdom en 
-                            maatschappelijke relevantie, ongeacht onderwijsvorm of 
+                        <p>Elke leerling van het secundair onderwijs op een begrijpelijke
+                            en inclusieve manier kennis laten maken met de geschiedenis
+                            van het vakgebied in brede zin, aspecten van zijn rijkdom en
+                            maatschappelijke relevantie, ongeacht onderwijsvorm of
                             studierichting.
                         </p>
-                        <p><br>Maximaliseer leermogelijkheden voor alle leerlingen door 
-                            gratis expertise aan te bieden via duurzame partnerschappen 
+                        <p><br>Maximaliseer leermogelijkheden voor alle leerlingen door
+                            gratis expertise aan te bieden via duurzame partnerschappen
                             met openbare, publiek-private en particuliere instellingen.
                         </p>
                     </div>
@@ -63,9 +90,11 @@
                 <section class="container-deelnemen">
                     <img src="images/deelnemen.svg" alt="Deelnemen">
                     <div class="text-block">
-                        <p class="text-with-button">Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade. Laat jullie verbeelding te keer
+                        <p class="text-with-button">Neem nu deel aan de logowedstrijd van de Geschiedenis Olympiade.
+                            Laat jullie verbeelding te keer
                             gaan, en
-                            ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor het
+                            ontwerp samen een super leuk logo! Wie weet, misschien wordt jullie logo wel gekozen voor
+                            het
                             officiële
                             evenement.
                         </p>
@@ -73,10 +102,10 @@
                     </div>
                 </section>
                 <div class="text-block">
-                    <p>Ik ben Noah! En ben opzoek naar een 
-                        klas die voor de jaarlijkse Geschiedenis 
-                        Olympiade een logo kan ontwerpen. 
-                        Schrijf je zelf in aan de wedstrijd en 
+                    <p>Ik ben Noah! En ben opzoek naar een
+                        klas die voor de jaarlijkse Geschiedenis
+                        Olympiade een logo kan ontwerpen.
+                        Schrijf je zelf in aan de wedstrijd en
                         wie weet wordt jullie ontwerp gebruikt.
                     </p>
                 </div>
@@ -86,9 +115,12 @@
         <footer>
             <img src="images/icoon_UGent_LW_NL_RGB_2400_kleur.png" alt="logo UGent">
             <ul>
-                <a target="_blank" href="https://www.instagram.com/geschiedenis_olympiade/"><img src="images/instagram-icon-tuur.svg" alt="instagram"></a>
-                <a target="_blank" href="https://www.facebook.com/GeschiedenisOlympiadeUGent"><img src="images/facebook-icon-tuur.svg" alt="facebook"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/geschiedenis-olympiade-ugent-30470b254/"><img src="images/linkedin-icon-tuur.svg" alt="linkedin"></a>
+                <a target="_blank" href="https://www.instagram.com/geschiedenis_olympiade/"><img
+                        src="images/instagram-icon-tuur.svg" alt="instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/GeschiedenisOlympiadeUGent"><img
+                        src="images/facebook-icon-tuur.svg" alt="facebook"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/geschiedenis-olympiade-ugent-30470b254/"><img
+                        src="images/linkedin-icon-tuur.svg" alt="linkedin"></a>
             </ul>
         </footer>
     </div>
