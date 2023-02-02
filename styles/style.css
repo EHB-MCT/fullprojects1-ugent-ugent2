@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Segoe';
-    src: url(fonts/SegoeUIVF.ttf);
+    src: url(../fonts/SegoeUIVF.ttf);
 }
 
 body {
@@ -196,7 +196,7 @@ main>div>.text-block {
     max-width: 25%;
     padding: 3% 150px 6% 80px;
     margin: 15% 0 10px 17%;
-    background-image: url(images/text-balloon.svg);
+    background-image: url(../images/text-balloon.svg);
     background-repeat: no-repeat;
     background-size: 90%;
 }
@@ -307,7 +307,7 @@ footer ul img {
 
 /* Inschrijven */
 .wrapper-inschrijven {
-    background-image: url("images/line-inschrijven-1.svg"), linear-gradient(#1E64C8, #0497EA);
+    background-image: url("../images/line-inschrijven-1.svg"), linear-gradient(#1E64C8, #0497EA);
     background-size: 8.63%, cover;
     background-position-x: 15%, 0;
 }

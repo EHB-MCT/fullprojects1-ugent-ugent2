@@ -308,9 +308,31 @@
         right: 25px;
     }
 
+    .pillar-left-home {
+        height: 250px;
+        top: 125%;
+    }
+
+    .pillar-right {
+        height: 300px;
+        top: 40%;
+    }
+
+    .pillar-right-wedstrijdreglement {
+        top: 60%;
+        height: 450px;
+    }
+
+    .container-zijn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .container-zijn .text-block {
-        margin-top: -15%;
+        margin-top: 10%;
         margin-left: 0;
+        max-width: 100%;
     }
 
     .container-missie,
