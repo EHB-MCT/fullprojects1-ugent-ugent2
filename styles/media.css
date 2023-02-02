@@ -1,22 +1,30 @@
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1900px) {
     .container-missie {
         margin-top: -1%;
         max-width: 45%;
     }
 }
 
+@media only screen and (max-width: 1700px) {
+    .text-balloon {
+        margin-top: 10%;
+    }
+    .text-balloon p {
+        top: 30%;
+    }
+}
+
 @media only screen and (max-width: 1600px) {
-    .container-deelnemen {
-        margin-top: 20%;
+    .container-missie {
+        margin-top: -4%;
     }
 
-    main>div>.text-block {
-        padding: 2% 150px 7% 80px;
+    .container-deelnemen {
+        margin-top: 20%;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-
     /* Wedstrijdreglement */
     .pillar-right-wedstrijdreglement {
         top: 70%;
@@ -35,11 +43,15 @@
 
 @media only screen and (max-width: 1440px) {
     .container-missie {
-        margin-top: -5%;
+        margin-top: -10%;
     }
 
     .container-deelnemen {
-        margin-top: 23%;
+        margin-top: 20%;
+    }
+
+    .text-balloon p {
+        top: 20%;
     }
 
     /* Inschrijven */
@@ -59,12 +71,12 @@
 
     .pillar-left-home {
         height: 350px;
-        top: 150%;
+        top: 60%;
     }
 
     .pillar-right {
         height: 450px;
-        top: 110%;
+        top: 80%;
     }
 
     .container-missie {
@@ -77,13 +89,11 @@
     }
 
     .container-deelnemen {
-        margin-top: 23%;
+        margin-top: 20%;
     }
 
-    main>div>.text-block {
-        max-width: 30%;
-        margin: 10% 0 0 14%;
-        padding: 1% 8% 10% 3%;
+    .text-balloon {
+        margin-top: 5%;
     }
 
     /* Inschrijven */
@@ -120,6 +130,12 @@
 
     .stem-page .pillar-right-wedstrijdreglement {
         top: 200%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .text-balloon {
+        display: none;
     }
 }
 
@@ -200,13 +216,8 @@
         margin: 0;
     }
 
-    main>div>.text-block {
-        position: absolute;
-        max-width: 50%;
-        top: 223%;
-        margin: 0;
-        padding: 4% 10% 15% 3%;
-        right: 35%;
+    .text-balloon {
+        display: none;
     }
 
     .noah-mobile {
@@ -271,6 +282,10 @@
         font-size: 14px;
     }
 
+    input[type=text], input[type=email] {
+        font-size: 13px;
+    }
+
     .noah-inschrijven {
         max-width: 18%;
     }
@@ -281,11 +296,15 @@
     }
 
     .stem-page .pillar-right-wedstrijdreglement {
-        top: 200%;
+        top: 130%;
     }
 
     .stem-nu {
         margin: -10px auto 30px auto;
+    }
+
+    .main-stem {
+        column-gap: 25px;
     }
 
     .logo-container {
@@ -293,7 +312,7 @@
     }
 
     .line-wedstrijdreglement {
-        margin-top: -40px;
+        margin-top: 0;
     }
 }
 
@@ -351,14 +370,6 @@
     .container-deelnemen .text-block {
         margin-top: 10%;
         max-width: 100%;
-    }
-
-    main>div>.text-block {
-        max-width: 50%;
-        top: 190%;
-        margin: 0;
-        padding: 4% 10% 15% 3%;
-        right: 35%;
     }
 
     .noah-mobile {
@@ -422,7 +433,7 @@
     }
 
     .noah-inschrijven {
-        top: 140%;
+        top: 110%;
     }
 
     /* Stem */
